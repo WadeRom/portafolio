@@ -1,0 +1,15 @@
+:root{
+    --green_dark: #50614A;
+    --green_light: #ACCEB0;
+    --green_complementarie:#74B88B;
+    --title_mobile: 1.33rem;
+    --title_desktop: 3.25rem;
+    --text_mobile: 1rem;
+    --text_links_mobile:0.875rem;
+    --text_desktop: 1.375rem;
+    --title_weight: 700;
+    --link_weight: 600;
+    --text_weight: 400;
+    --padding_mobile: 1.5rem 2rem;
+    --paddin_web: 3rem;
+}
