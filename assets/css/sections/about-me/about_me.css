@@ -1,56 +1,61 @@
 .about__me__container{
-    padding: var(--padding_mobile);
-    color: var(--green_dark);
-    font-family: Raleway; 
-    display: flex;
-    height: 18.6875rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 3rem;
-    flex-shrink: 0;
-    align-self: stretch;
-    background-clip: border-box;
-    background-size: contain;
+    display: flex;
+    height: 18rem;  
+    align-items: center;
+    font-family: Raleway; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-size: cover;
+    color: var(--green_dark);
     background-repeat: no-repeat;
-    background-image: url("../../../images/shop-bg.svg");
-    border:  solid red;
+    padding: var(--padding_mobile);
+    background-image: url('../../../images/shop-bg.png');
+}
 
-}
-.about__me__menu{
-    border:  solid green;
-    display: none;
-}
-.about__me__info{
-    
-}
-.about__me__info-title{
+.about__me__menu{visibility: hidden; display: none;}
 
-    margin: 0 auto;
-    text-align: justify;
-    font-size: calc(var(--title_mobile) + 1vw);
-    font-weight: var(--title_weight);
-}
-.about__me__info-text{
-    margin:0 auto;
-    font-size: var(--text_mobile);
-    text-align: justify;
-}
-.about__me__info-photo{
-    display: none;
-}
-.about__me__links{
+.about__me__container-info{
+    gap:3rem;
+    display: flex;
+    max-width: 900px;
     justify-content: space-between;
 }
-.about__me__link-container{
-    align-items: flex-end;
+
+.about__me__info{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.about__me__info-title{
+    text-align: justify;
+    font-weight: var(--title_weight);
+    font-size: calc(var(--title_mobile) + 1vw);
+}
+
+.about__me__info-text{text-align: justify;font-size: var(--text_mobile);}
+
+.about__me__info-photo{ display: none;}
+
+.about__me__links{gap: 1rem}
+
 .about__me__link{
     color: var(--green_dark);
     font-weight: var(--link_weight);
-    font-size: var(--text_links_mobile);
-    
+    font-size: var(--text_links_mobile);   
 }
-.about__me__link-icon{
-    font-size: 1rem;
+
+.about__me__link-icon{ font-size: .8rem}
+
+@media screen and (min-width:1024px) and (max-width:1920px){
+    .about__me__container{padding: var(--padding_desktop)}
+    .about__me__info-photo{display: flex;width: 15.5rem;}
+    .about__me__menu{
+        gap: 3rem;
+        display: flex;
+        visibility: visible;
+        justify-content: center;
+    }
 }
