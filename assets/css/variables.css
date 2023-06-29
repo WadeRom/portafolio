@@ -1,4 +1,6 @@
 :root{
+    --font: Raleway;
+    --white_color: #fff;
     --green_dark: #50614A;
     --green_light: #ACCEB0;
     --green_complementarie:#74B88B;
@@ -11,5 +13,5 @@
     --link_weight: 600;
     --text_weight: 400;
     --padding_mobile: 1.5rem 2rem;
-    --padding_desktop: 3rem;
+    --padding_desktop: 4rem;
 }
