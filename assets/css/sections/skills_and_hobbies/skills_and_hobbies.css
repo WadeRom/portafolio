@@ -1,0 +1,55 @@
+.skills__and__hobbies__container{
+    display: flex;
+    row-gap: 5rem;
+    min-height: 42rem;
+    position: relative;
+    align-items: stretch;
+    flex-direction: column;
+    background-size: contain;
+    font-family: var(--font);
+    color: var(--green_dark);
+}
+.skills__and__hobbies__bg{
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: 0 var(--padding_mobile);
+    background-image: url('../../../images/rocks_bg.svg');
+}
+
+.skills__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills__content, .hobbies__content{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__content__item__card, .hobbies__content__item__card{
+    gap: 1rem;
+    display: flex;
+    padding: 1rem;
+    min-width: 7rem;
+    min-height: 8rem;
+    border-radius: 0.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--white_color);
+    justify-content: flex-end;
+    font-weight: var(--title_weight);
+    background-color: var(--green_dark);
+}
+
+.skills__content__item-img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.hobbies__title{
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
