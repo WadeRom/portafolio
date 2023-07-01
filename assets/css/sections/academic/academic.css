@@ -9,10 +9,10 @@
 }
 
 .academic__title{
-    font-weight: var(--title_weight);
-    font-size: 2rem;
-    color: var(--white_color);
+    font-size: var(--title_mobile);
     align-self: center;
+    color: var(--white_color);
+    font-weight: var(--title_weight);
 
 }
 
@@ -45,7 +45,7 @@
 }
 
 .academic__card__item-title{
-    font-size: 1.2rem;
+    font-size: var(--title_mobile);
     margin: 1rem 0 0.5rem 0;
     color: var(--white_color);
     font-weight: var(--title_weight);
