@@ -1,0 +1,56 @@
+.academic__container{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+    justify-content: flex-start;
+    padding: var(--padding_mobile);
+    background-color: var(--green_dark);
+}
+
+.academic__title{
+    font-weight: var(--title_weight);
+    font-size: 2rem;
+    color: var(--white_color);
+    align-self: center;
+
+}
+
+.academic__card__container{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.academic__card__item{
+    width: 20rem;
+    min-height: 18rem;
+    border-radius: 0.5rem;
+} 
+
+.academic__card__item-img{
+    display: flex;
+    height: 12rem;
+    max-width: 100%;
+    padding: 0 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green_light);
+    border-radius: 0.5rem;
+}
+
+.academic__card__item-img img{
+    max-width: 16rem;
+}
+
+.academic__card__item-title{
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+    color: var(--white_color);
+    font-weight: var(--title_weight);
+}
+.academic__card__item-text{
+    font-size: 1rem;
+    color: var(--white_color);
+}
