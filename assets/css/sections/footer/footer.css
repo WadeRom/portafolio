@@ -1,0 +1,8 @@
+.footer__container{
+    padding: var(--padding_mobile);
+    text-align: center;
+    font-size: .9rem;
+    color: var(--green_dark);
+    font-family: var(--font);
+    font-weight: var(--text_weight);
+}
