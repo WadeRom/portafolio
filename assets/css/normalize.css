@@ -165,6 +165,9 @@
   optgroup,
   select,
   textarea {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
     font-family: inherit; /* 1 */
     font-size: 100%; /* 1 */
     line-height: 1.15; /* 1 */
@@ -263,6 +266,7 @@
   
   textarea {
     overflow: auto;
+    height: 8rem;
   }
   
   /**

@@ -14,6 +14,12 @@
     background-color: var(--green_dark);
 }
 
+.secondary{
+    color: var(--green_dark);
+    font-weight: var(--title_weight);
+    background-color: var(--white_color);
+}
+
 .primary_outline:hover{
     box-shadow:  1px 1px 4px var(--green_dark);
 }

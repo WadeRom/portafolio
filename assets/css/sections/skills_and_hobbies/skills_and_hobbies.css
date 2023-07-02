@@ -44,6 +44,9 @@
     background-color: var(--green_dark);
 }
 
+.skills__content__item-text{
+    font-size: .9rem;
+}
 .skills__content__item-img{
     width: 2rem;
     height: 2rem;
