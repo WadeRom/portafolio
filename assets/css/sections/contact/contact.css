@@ -55,7 +55,7 @@
 .contact__form__item-title:has(~input:not(:placeholder-shown)),
 .contact__form__item-title:has(~textarea:focus),
 .contact__form__item-title:has(~input:focus){
-    transform: translate(-1rem, -3rem) scale(.8);
+    transform: translate(-1rem, -2.5rem) scale(.8);
 }
 
 @media screen and (max-width: 1080px) {
