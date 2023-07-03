@@ -41,7 +41,7 @@
 }
 
 .experience__works__item-title{
-    margin: 0 0 0 0;
+    margin: .5rem 0;
     font-size: var(--text_mobile);
     font-weight: var(--title_weight);
 }

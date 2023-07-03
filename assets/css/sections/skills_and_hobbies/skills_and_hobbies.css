@@ -10,12 +10,12 @@
     font-family: var(--font);
     color: var(--green_dark);
 }
-.skills__and__hobbies__bg{
+/* .skills__and__hobbies__bg{
     background-repeat: no-repeat;
     background-position-y: bottom;
     padding: 0 var(--padding_mobile);
     background-image: url('../../../images/rocks_bg.svg');
-}
+} */
 
 .skills__head{
     display: flex;
