@@ -1,5 +1,6 @@
 .experience__container{
     display: flex;
+    overflow-x: hidden;
     align-items: center;
     flex-direction: column;
     font-family: var(--font);

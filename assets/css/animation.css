@@ -1,0 +1,15 @@
+.smooth_bottom_top{
+    animation: 1s ease-in smooth_bottom_top;
+}
+
+@keyframes smooth_bottom_top {
+    from{
+        
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

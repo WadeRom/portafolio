@@ -1,5 +1,5 @@
 .footer__container{
-    padding: var(--padding_mobile);
+    padding: 1.5rem 0;
     text-align: center;
     font-size: .9rem;
     color: var(--green_dark);

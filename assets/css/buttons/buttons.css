@@ -15,6 +15,7 @@
 }
 
 .secondary{
+    width: 100%;
     color: var(--green_dark);
     font-weight: var(--title_weight);
     background-color: var(--white_color);
@@ -33,4 +34,3 @@
 .primary_outline{
     border: 1px solid var(--green_dark);
 }
-
