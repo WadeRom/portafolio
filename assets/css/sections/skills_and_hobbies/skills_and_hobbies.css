@@ -49,9 +49,11 @@
 .skills__content__item-text{
     font-size: .9rem;
 }
-.skills__content__item-img{
+.skills__content__item-img, .hobbies__content__item-icon{
     width: 2rem;
     height: 2rem;
+    font-size: 2rem;
+    color: var(--green_complementarie);
 }
 
 .hobbies__title{
