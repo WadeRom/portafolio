@@ -5,6 +5,7 @@
     position: relative;
     overflow-x: hidden;
     align-items: stretch;
+    padding-bottom: 3rem;
     flex-direction: column;
     background-size: contain;
     font-family: var(--font);
